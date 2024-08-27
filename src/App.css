@@ -1,0 +1,66 @@
+.todo-app {
+  text-align: center;
+}
+
+.todo-input {
+  margin-bottom: 20px;
+}
+
+.todo-input input {
+  margin: 0 5px;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #f0ad4e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ec971f;
+}
+
+.todo-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.todo-card {
+  background: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+.edit-btn {
+  background-color: #5cb85c;
+  margin-right: 10px;
+}
+
+.delete-btn {
+  background-color: #d9534f;
+}
+
+select {
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.filter {
+  margin-bottom: 20px;
+}
+
+.filter select {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
